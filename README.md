@@ -25,8 +25,6 @@
 - GUI/Web base (Web Dashboard).
 
 
-Youtube link: https://www.youtube.com/watch?v=PG9odBcH_8Y
-
 ### Built With
 
 *  ![image](https://user-images.githubusercontent.com/22583786/212804400-654f8223-6aa5-42be-91c1-42729156d399.png)
@@ -35,4 +33,8 @@ Youtube link: https://www.youtube.com/watch?v=PG9odBcH_8Y
 * ![image](https://user-images.githubusercontent.com/22583786/212804462-346dcaff-8fdb-4ca7-9eb8-9578926ef6d3.png)
 * ![image](https://user-images.githubusercontent.com/22583786/212804478-7e86d258-43e5-4ec3-ac6e-aab09ab596e0.png)
 
+# Data Journey
+![image](https://user-images.githubusercontent.com/22583786/212806376-a32ce8fc-78c9-4ba6-b0e9-fe69196e6a0f.png)
 
+# Data Pipeline
+![image](https://user-images.githubusercontent.com/22583786/212806465-cce1d748-d1ec-40f4-a749-07c37fb1607e.png)
