@@ -13,14 +13,14 @@ def main():
 
         return(-1)
     
-    # Step Aggregation
-    ret = subprocess.run(["python3", "aggregation.py",ch_name,vid,title])
+    # Step Sentiment
+    ret = subprocess.run(["python3", "sentiment.py",ch_name,vid,title])
     if ret.returncode != 0:
 
         return(-1)
-
-    # Step Sentiment
-    ret = subprocess.run(["python3", "sentiment.py",ch_name,vid,title])
+    
+    # Step Aggregation
+    ret = subprocess.run(["python3", "aggregation.py",ch_name,vid,title])
     if ret.returncode != 0:
 
         return(-1)
