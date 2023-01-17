@@ -13,17 +13,7 @@ import plotly.graph_objects as go
 external_stylesheets = ['bWLwgP.css']
 
 app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,dbc.icons.BOOTSTRAP])
-#app = Dash(__name__,external_stylesheets=external_stylesheets)
-#df2 = pd.read_csv('https://plotly.github.io/datasets/country_indicators.csv')
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-'''
-df = pd.DataFrame({
-    "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
-    "Amount": [10, 1, 2, 2, 4, 5,2, 3, 1],
-    "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal","AA","AA","AA"]
-})
-'''
+
 client_sm = MongoClient("mongodb+srv://appuser:dXb2gIgAEXf3NA3E@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
 livechat_mart_db = client_sm['livechat_mart']
 
