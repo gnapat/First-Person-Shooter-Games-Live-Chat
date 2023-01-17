@@ -17,7 +17,6 @@ def main():
     mydatabase = client['livechat_raw']
     collection = mydatabase[chl]
 
-
     df=pd.DataFrame()
     c=0
     for i in collection.find({"vid":vid}):

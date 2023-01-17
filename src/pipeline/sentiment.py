@@ -14,6 +14,7 @@ title = sys.argv[3]
 def main():
     flag_db = 0
     print("Start: Sentiment")
+    
     sia = SentimentIntensityAnalyzer()
 
     client = MongoClient("mongodb+srv://<credential>@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
