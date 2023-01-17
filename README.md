@@ -1,6 +1,23 @@
 # First-Person-Shooter-Games-Live-Chat (Quiz2 + Final project)
-<br>Kruawun Jankaew  6420422016 
-Napat Phongvichian 6420422022</br>
+
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+   
+  </a>
+
+
+  <p align="center">
+   <h1> Kruawun Jankaew 6420422016 <br />Napat Phongvichian 6420422022 </h1>
+    <br />
+    <a href="https://www.youtube.com/watch?v=PG9odBcH_8Y"><strong>Video Presentation »</strong></a>
+    <a href="https://github.com/gnapat/First-Person-Shooter-Games-Live-Chat/blob/main/DADS5001_FPS_Game_Streaming.pdf"><strong>PDF Presentation»</strong></a>
+    <br />
+  </p>
+</div>
+
+# Application
+![image](https://user-images.githubusercontent.com/22583786/212804762-641ddd0b-f0b5-4218-9103-e77cedcbaba3.png)
+
 
 
 - Data Collector.
