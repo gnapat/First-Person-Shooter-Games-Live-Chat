@@ -13,7 +13,7 @@ def main():
     flag_db = 0
     print("Start: Aggregation")
 
-    client = MongoClient("mongodb+srv://appadm:e7Eddf7fe7Eddf7f@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://<credential>@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
     mydatabase = client['livechat_raw']
     collection = mydatabase[chl]
 
@@ -60,7 +60,7 @@ def main():
 
     len_data = df_re['count'].count()
 
-    client_sm = MongoClient("mongodb+srv://appadm:e7Eddf7fe7Eddf7f@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
+    client_sm = MongoClient("mongodb+srv://<credential>@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
     livechat_mart_db = client_sm['livechat_mart']
     _group_channel=f"Engagement_bytime_{chl}"
     print(_group_channel)
@@ -75,12 +75,12 @@ def main():
         else:
             livechat_collection.insert_one(record)
 
-    client_sm = MongoClient("mongodb+srv://appadm:e7Eddf7fe7Eddf7f@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
+    client_sm = MongoClient("mongodb+srv://<credential>@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
     livechat_mart_db = client_sm['livechat_mart']
     _group_channel=f"Engagement_bytime_{chl}"
     livechat_collection = livechat_mart_db[_group_channel]
 
-    client_sm = MongoClient("mongodb+srv://appadm:e7Eddf7fe7Eddf7f@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
+    client_sm = MongoClient("mongodb+srv://<credential>@cluster0.g7t88xt.mongodb.net/?retryWrites=true&w=majority")
     livechat_mart_db = client_sm['livechat_mart']
     sentiment_group_channel=f"Sentiment_{chl}"
     print(sentiment_group_channel)
