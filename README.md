@@ -10,7 +10,7 @@
    Kruawun Jankaew 6420422016 <br />Napat Phongvichian 6420422022 </h2>
     <br />
     <a href="https://www.youtube.com/watch?v=PG9odBcH_8Y"><strong>Video Presentation »</strong></a>
-    <a href="https://github.com/gnapat/First-Person-Shooter-Games-Live-Chat/blob/main/DADS5001_FPS_Game_Streaming.pdf"><strong>PDF Presentation»</strong></a>
+    <a href="https://github.com/gnapat/Realtime.quiz02/blob/main/Quiz2_DADS6005_No_GPU.pdf"><strong>PDF Report»</strong></a>
     <br />
   </p>
 </div>
